@@ -20,10 +20,10 @@ IVT 的理论贡献包括：（1）首次将意象拆解为向量分量并形式
 
 ## 一、引言
 
-- **问题意识**：以"兴"、"含蓄"、"以物观物"、"意象派"[7]、客观对应物[8]为主要学术支柱的传统诗学描述了"物象能传达情感"这一现象，但未能解释其底层运作机制，为什么"枯藤老树昏鸦"六个名词能传递出萧瑟感？为什么"能跑就行"比任何修饰都更能传递开发者的无力？
+- **问题意识**：以"兴"、"含蓄"、"以物观物"、"意象派"[6]、客观对应物[7]为主要学术支柱的传统诗学描述了"物象能传达情感"这一现象，但未能解释其底层运作机制，为什么"枯藤老树昏鸦"六个名词能传递出萧瑟感？为什么"能跑就行"比任何修饰都更能传递开发者的无力？
 - **核心命题**：意象不仅是符号，还可以被构建为向量。诗歌意象的情感生产可以建模为高维情感向量空间中的向量运算。与此同时，在咏物诗的范畴中，**向量构建由作者完成，向量运算由读者完成**，形成情感空间中的图拓扑，使得读者在读诗的过程中得以发挥主观能动性，使情感自主扎根、更加牢固，由此形成咏物诗的独特艺术效果。
   - **图拓扑与"一千个哈姆雷特"**：读者在向量运算中构建的是一份具体的**图拓扑**（节点=意象向量，边=向量关系），不同读者的意象感知权重与向量计算能力不同，所构建的图拓扑必然不同，这给出了"一千个读者有一千个哈姆雷特"的精确认知机制解释
-- **方法论**：跨学科整合：诗学（意象研究）+ 数学（向量空间/拓扑学）+ 认知科学（概念空间[13]/神经认知[15]）+ 计算机科学（词嵌入/语义向量空间[27][28]）+ **创作实践**
+- **方法论**：跨学科整合：诗学（意象研究）+ 数学（向量空间/拓扑学）+ 认知科学（概念空间[12]/神经认知[14]）+ 计算机科学（词嵌入/语义向量空间[26][27]）+ **创作实践**
 - **研究范围**：汉语古典诗歌分析、当代诗歌分析、作者作品分析。聚焦于情感生产机制而非审美价值判断
 - **作者的话**：该节讨论了 AI 技术发展、作者自身创作焦虑、文坛腐败现象及本文出发点。
 
@@ -41,7 +41,7 @@ IVT 的理论贡献包括：（1）首次将意象拆解为向量分量并形式
   - 2.3.3 实例拆解
   - 2.3.4 公式化总结
 - **2.4 创作实践的视角**：蟛蜞在《调用日志》中自然运用的"调用栈""灰色注释""标红报错"等意象，在创作直觉中完成了标与向的分离，得以让理论从实践中反向翻译而来，而非从概念出发的推演
-- **2.5 与平行研究的比较**：Rochallyi 向量诗歌[1]：向量方向+长度，但未区分标/向、未涉及文化编码机制；词嵌入技术[27][28]：验证意象向量化的可行性但无机制解释
+- **2.5 与平行研究的比较**：Rochallyi 向量诗歌[1]：向量方向+长度，但未区分标/向、未涉及文化编码机制；词嵌入技术[26][27]：验证意象向量化的可行性但无机制解释
 
 ---
 
@@ -56,7 +56,7 @@ IVT 的理论贡献包括：（1）首次将意象拆解为向量分量并形式
   - 公式推论：异频向量夹角越大，需要的额外维度越多
 - **3.3 维度锁定的拓扑学解释**
   - 高维空间可表达低维空间不存在的情感位置
-  - 与层论表征[30]（sheaf theory）和POET[29]拓扑模型的平行关系
+  - 与层论表征[29]（sheaf theory）和POET[28]拓扑模型的平行关系
   - 维度锁定的数学本质：在情感流形上划定子区域
 - **3.4 创作实践验证**：蟛蜞《调试日志》中，"非法配置落入灰色注释"+"超时请求沉进标红报错"两个异源但同频的报错场景叠加，比单一报错场景更精确地固定了"被技术世界困住"的情感坐标
 
@@ -113,10 +113,10 @@ IVT 的理论贡献包括：（1）首次将意象拆解为向量分量并形式
 
 | 主张 | 对接学科 | 平行参照系 |
 |------|---------|-----------|
-| 标/向分离 | 诗学 | Rochallyi[1]向量诗学、程洁[3]三重转换 |
-| 叠加与维度锁定 | 数学×拓扑学 | 层论[30]表征、洛特曼[5]符号圈、POET[29]贝蒂数 |
-| 动词-动量与轨迹 | 语言学×认知科学 | Gärdenfors[13]双向量模型、Stockwell[17]指示投射 |
-| 读者责任转移 | 认知科学×美学 | Jacobs[15] NCPM、Text World Theory[19] |
+| 标/向分离 | 诗学 | Rochallyi[1]向量诗学 |
+| 叠加与维度锁定 | 数学×拓扑学 | 层论[29]表征、洛特曼[4]符号圈、POET[28]贝蒂数 |
+| 动词-动量与轨迹 | 语言学×认知科学 | Gärdenfors[12]双向量模型、Stockwell[16]指示投射 |
+| 读者责任转移 | 认知科学×美学 | Jacobs[14] NCPM、Text World Theory[18] |
 
 **纵向三级感知链路**：文化编码层——"向"源于语言共同体的历史编码；符号共鸣层——同频共振加强而异频张力创新；认知渲染层——留白迫使读者自主完成情感闭合
 
@@ -261,99 +261,99 @@ IVT标准框架将"我"默认为情感向量空间（IVS）的隐含参考系原
 
 ### 一、诗学与文学理论
 
-[1] ROCHALLYI R. Vector Poetry[EB/OL]. MAA Math Values, 2023-06-29. https://maa.org/math-values/vector-poetry/. [2026-07-11].
+[1] ROCHALLYI R. Vector Poetry[EB/OL]. (2023-06-29)[2026-07-11]. https://maa.org/math-values/vector-poetry/.
 
-[2] KURZYNSKI M. The game of keys and queries: parallelism and cognitive geometry in Chinese regulated verse[J/OL]. International Journal of Humanities and Arts Computing, 2025, 19(2). https://doi.org/10.3366/ijhac.2025.0355. [2026-07-11].
+[2] KURZYNSKI M, XU X, FENG Y. The game of keys and queries: parallelism and cognitive geometry in Chinese regulated verse[J/OL]. International Journal of Humanities and Arts Computing, 2025, 19(2): 143-157. https://doi.org/10.3366/ijhac.2025.0355. [2026-07-11].
 
-[3] 程洁. 汉语古典诗歌意象系统研究：物象—心象—语象的三重转换机制[M]. 北京: 北京大学出版社, 2018.
+[3] 刘勰. 文心雕龙[M]. 北京: 人民文学出版社, 1958.
 
-[4] 刘勰. 文心雕龙[M]. 北京: 人民文学出版社, 1958.
+[4] LOTMAN Y. Universe of the mind: a semiotic theory of culture[M]. Bloomington: Indiana University Press, 1990.
 
-[5] LOTMAN Y. Universe of the mind: a semiotic theory of culture[M]. Bloomington: Indiana University Press, 1990.
+[5] FAUCONNIER G, TURNER M. The way we think: conceptual blending and the mind's hidden complexities[M]. New York: Basic Books, 2002.
 
-[6] FAUCONNIER G, TURNER M. The way we think: conceptual blending and the mind's hidden complexities[M]. New York: Basic Books, 2002.
+[6] POUND E. A retrospect[M]//Literary essays of Ezra Pound. London: Faber and Faber, 1954.
 
-[7] POUND E. A retrospect[M]//Literary essays of Ezra Pound. London: Faber and Faber, 1954.
+[7] ELIOT T S. Hamlet and his problems[M]//The sacred wood: essays on poetry and criticism. London: Methuen, 1920.
 
-[8] ELIOT T S. Hamlet and his problems[M]//The sacred wood: essays on poetry and criticism. London: Methuen, 1920.
+[8] 王国维. 人间词话[M]. 上海: 上海古籍出版社, 1998.
 
-[9] 王国维. 人间词话[M]. 上海: 上海古籍出版社, 1998.
+[9] 严羽. 沧浪诗话[M]. 北京: 中华书局, 2014.
 
-[10] 严羽. 沧浪诗话[M]. 北京: 中华书局, 2014.
+[10] 司空图. 二十四诗品[M]. 北京: 人民文学出版社, 1963.
 
-[11] 司空图. 二十四诗品[M]. 北京: 人民文学出版社, 1963.
-
-[12] FAUCONNIER G. Mental spaces: aspects of meaning construction in natural language[M]. Cambridge: Cambridge University Press, 1994.
+[11] FAUCONNIER G. Mental spaces: aspects of meaning construction in natural language[M]. Cambridge: Cambridge University Press, 1994.
 
 ### 二、认知科学与神经认知
 
-[13] GÄRDENFORS P. Conceptual spaces: the geometry of thought[M]. Cambridge, MA: MIT Press, 2000.
+[12] GÄRDENFORS P. Conceptual spaces: the geometry of thought[M]. Cambridge, MA: MIT Press, 2000.
 
-[14] GÄRDENFORS P. The geometry of meaning: semantics based on conceptual spaces[M]. Cambridge, MA: MIT Press, 2014.
+[13] GÄRDENFORS P. The geometry of meaning: semantics based on conceptual spaces[M]. Cambridge, MA: MIT Press, 2014.
 
-[15] JACOBS A M. Neurocognitive poetics: methods and models for investigating the neuronal and cognitive-affective bases of literature reception[J]. Frontiers in Human Neuroscience, 2015, 9: 186.
+[14] JACOBS A M. Neurocognitive poetics: methods and models for investigating the neuronal and cognitive-affective bases of literature reception[J]. Frontiers in Human Neuroscience, 2015, 9: 186.
 
-[16] JACOBS A M. SentiArt: a vector space model for the computation of emotion potential in texts[C]//Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing. Brussels: ACL, 2018.
+[15] JACOBS A M. SentiArt: a vector space model for the computation of emotion potential in texts[C]//Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing. Brussels: ACL, 2018.
 
-[17] STOCKWELL P. Cognitive poetics: an introduction[M]. London: Routledge, 2002.
+[16] STOCKWELL P. Cognitive poetics: an introduction[M]. London: Routledge, 2002.
 
-[18] STOCKWELL P. Cognitive poetics: a new introduction[M]. 2nd ed. London: Routledge, 2024.
+[17] STOCKWELL P. Cognitive poetics: a new introduction[M]. 2nd ed. London: Routledge, 2019.
 
-[19] WERTH P. Text worlds: representing conceptual space in discourse[M]. London: Longman, 1999.
+[18] WERTH P. Text worlds: representing conceptual space in discourse[M]. London: Longman, 1999.
 
-[20] GAVINS J. Text world theory: an introduction[M]. Edinburgh: Edinburgh University Press, 2007.
+[19] GAVINS J. Text world theory: an introduction[M]. Edinburgh: Edinburgh University Press, 2007.
 
-[21] ISER W. The act of reading: a theory of aesthetic response[M]. Baltimore: Johns Hopkins University Press, 1978.
+[20] ISER W. The act of reading: a theory of aesthetic response[M]. Baltimore: Johns Hopkins University Press, 1978.
 
-[22] ISER W. The implied reader: patterns of communication in prose fiction from Bunyan to Beckett[M]. Baltimore: Johns Hopkins University Press, 1974.
+[21] ISER W. The implied reader: patterns of communication in prose fiction from Bunyan to Beckett[M]. Baltimore: Johns Hopkins University Press, 1974.
 
-[23] FRISTON K. The free-energy principle: a unified brain theory?[J]. Nature Reviews Neuroscience, 2010, 11(2): 127-138.
+[22] FRISTON K. The free-energy principle: a unified brain theory?[J]. Nature Reviews Neuroscience, 2010, 11(2): 127-138.
 
-[24] VAN DE CRUYS S, FRASCAROLI J, FRISTON K. Order and change in art: towards an active inference account of aesthetic experience[J]. Philosophical Transactions of the Royal Society B: Biological Sciences, 2024, 379(1895): 20220411.
+[23] VAN DE CRUYS S, FRASCAROLI J, FRISTON K. Order and change in art: towards an active inference account of aesthetic experience[J]. Philosophical Transactions of the Royal Society B: Biological Sciences, 2024, 379(1895): 20220411.
 
-[25] PETERSEN M K. Latent semantics of action verbs reflect phonetic parameters of intensity and emotional content[J]. PLoS ONE, 2015, 10(4): e0121575.
+[24] PETERSEN M K. Latent semantics of action verbs reflect phonetic parameters of intensity and emotional content[J]. PLoS ONE, 2015, 10(4): e0121575.
 
-[26] STOCKWELL P. Texture: a cognitive aesthetics of reading[M]. Edinburgh: Edinburgh University Press, 2009.
+[25] STOCKWELL P. Texture: a cognitive aesthetics of reading[M]. Edinburgh: Edinburgh University Press, 2009.
 
 ### 三、计算机科学与计算诗学
 
-[27] MIKOLOV T, CHEN K, CORRADO G, et al. Efficient estimation of word representations in vector space[C]//Proceedings of ICLR Workshop. Scottsdale: ICLR, 2013.
+[26] MIKOLOV T, CHEN K, CORRADO G, et al. Efficient estimation of word representations in vector space[C]//Proceedings of ICLR Workshop. Scottsdale: ICLR, 2013.
 
-[28] DEVLIN J, CHANG M W, LEE K, et al. BERT: pre-training of deep bidirectional transformers for language understanding[C]//Proceedings of NAACL-HLT. Minneapolis: ACL, 2019: 4171-4186.
+[27] DEVLIN J, CHANG M W, LEE K, et al. BERT: pre-training of deep bidirectional transformers for language understanding[C]//Proceedings of NAACL-HLT. Minneapolis: ACL, 2019: 4171-4186.
 
-[29] WANG R, LEHMAN J, CLUNE J, et al. POET: paired open-ended trailblazer model for open-ended evolution[J/OL]. arXiv preprint arXiv:1901.01753, 2019.
+[28] WANG R, LEHMAN J, CLUNE J, et al. POET: paired open-ended trailblazer model for open-ended evolution[J/OL]. arXiv preprint arXiv:1901.01753, 2019.
 
-[30] AYZENBERG A, GEBHART T, MAGAI G, et al. Sheaf theory: from deep geometry to deep learning[EB/OL]. (2025-02-21)[2026-07-11]. https://arxiv.org/abs/2502.15476.
+[29] AYZENBERG A, GEBHART T, MAGAI G, et al. Sheaf theory: from deep geometry to deep learning[EB/OL]. (2025-02-21)[2026-07-11]. https://arxiv.org/abs/2502.15476.
 
-[31] KURZYNSKI M, XU X, FENG Y. Vector poetics: parallel couplet detection in classical Chinese poetry[C]//Proceedings of the 4th International Conference on Natural Language Processing for Digital Humanities (NLP4DH 2024), 2024: 200-208.
+[30] KURZYNSKI M, XU X, FENG Y. Vector poetics: parallel couplet detection in classical Chinese poetry[C]//Proceedings of the 4th International Conference on Natural Language Processing for Digital Humanities (NLP4DH 2024), 2024: 200-208.
 
 ### 四、数学与情感科学
 
-[32] COWEN A S, KELTNER D. Semantic space theory: a new approach to understanding emotion[J]. Nature Reviews Psychology, 2024, 3: 88-103.
+[31] COWEN A S, KELTNER D. Semantic space theory: a new approach to understanding emotion[J]. Nature Reviews Psychology, 2024, 3: 88-103.
 
-[33] COWEN A S, KELTNER D. Self-report captures 27 distinct categories of emotion bridged by continuous gradients[J]. Proceedings of the National Academy of Sciences, 2017, 114(38): E7900-E7909.
+[32] COWEN A S, KELTNER D. Self-report captures 27 distinct categories of emotion bridged by continuous gradients[J]. Proceedings of the National Academy of Sciences, 2017, 114(38): E7900-E7909.
 
-[34] 段玉聪. 段玉聪 DIKWP 哲学体系解析[EB/OL]. ResearchGate, 2025-11. DOI:10.13140/RG.2.2.15793.65127.
+[33] 段玉聪. 段玉聪 DIKWP 哲学体系解析[EB/OL]. ResearchGate, (2025-11)[2026-07-11]. https://www.researchgate.net/doi/10.13140/RG.2.2.15793.65127.
 
 ### 五、神经科学实验与实证研究
 
-[35] MERLEAU-PONTY M. Phenomenology of perception[M]. SMITH C, 译. London: Routledge, 1962.
+[34] MERLEAU-PONTY M. Phenomenology of perception[M]. SMITH C, 译. London: Routledge, 1962.
 
-[36] BARSALOU L W. Perceptual symbol systems[J]. Behavioral and Brain Sciences, 1999, 22(4): 577-660.
+[35] BARSALOU L W. Perceptual symbol systems[J]. Behavioral and Brain Sciences, 1999, 22(4): 577-660.
 
 ### 六、语言大模型微调实践方向
 
-[37] HU E J, SHEN Y, WALLIS P, et al. LoRA: low-rank adaptation of large language models[C]//Proceedings of the International Conference on Learning Representations (ICLR 2022), 2022.
+[36] HU E J, SHEN Y, WALLIS P, et al. LoRA: low-rank adaptation of large language models[C]//Proceedings of the International Conference on Learning Representations (ICLR 2022), 2022.
 
-[38] DETTMERS T, PAGNONI A, HOLTZMAN A, et al. QLoRA: efficient finetuning of quantized LLMs[C]//Proceedings of NeurIPS 2023, 2023.
+[37] DETTMERS T, PAGNONI A, HOLTZMAN A, et al. QLoRA: efficient finetuning of quantized LLMs[C]//Proceedings of NeurIPS 2023, 2023.
 
-[39] LIU S Y, WANG C Y, YIN H, et al. DoRA: weight-decomposed low-rank adaptation[C]//Proceedings of the International Conference on Machine Learning (ICML 2024), 2024.
+[38] LIU S Y, WANG C Y, YIN H, et al. DoRA: weight-decomposed low-rank adaptation[C]//Proceedings of the International Conference on Machine Learning (ICML 2024), 2024.
 
-[40] ZHANG Q, CHEN M, BUKHARIN A, et al. AdaLoRA: adaptive budget allocation for parameter-efficient fine-tuning[C]//Proceedings of ICLR 2023, 2023.
+[39] ZHANG Q, CHEN M, BUKHARIN A, et al. AdaLoRA: adaptive budget allocation for parameter-efficient fine-tuning[C]//Proceedings of ICLR 2023, 2023.
 
-[41] HAN Z, GAO C, LIU J, et al. Parameter-efficient fine-tuning for large models: a comprehensive survey[J/OL]. arXiv:2403.14608, 2024.
+[40] HAN Z, GAO C, LIU J, et al. Parameter-efficient fine-tuning for large models: a comprehensive survey[J/OL]. arXiv:2403.14608, 2024.
 
-[42] LIALIN V, DESHPANDE V, RUMSHISKY A. Scaling down to scale up: a guide to parameter-efficient fine-tuning[J/OL]. arXiv:2303.15647, 2023.
+[41] LIALIN V, DESHPANDE V, RUMSHISKY A. Scaling down to scale up: a guide to parameter-efficient fine-tuning[J/OL]. arXiv:2303.15647, 2023.
 
-[43] DAI N, LIANG J, QIU X, et al. StylePTB: a compositional benchmark for fine-grained controllable text style transfer[C]//Proceedings of NAACL 2022, 2022.
+[42] LYU Y, LIANG P P, PHAM H, et al. StylePTB: a compositional benchmark for fine-grained controllable text style transfer[C]//Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies. Online: Association for Computational Linguistics, 2021: 2116-2138. DOI:10.18653/v1/2021.naacl-main.171.
+
+[43] LAKOFF G, JOHNSON M. Metaphors we live by[M]. Chicago: University of Chicago Press, 1980.
 
